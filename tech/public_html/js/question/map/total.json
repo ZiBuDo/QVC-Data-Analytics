@@ -1,0 +1,632 @@
+total = {
+"categories" : [
+    {
+        "name": "Home Decor",
+        "y": 19.514,
+        "drilldown": "Home Decor"
+    },
+    {
+        "name": "Health & Beauty",
+        "y": 16.34,
+        "drilldown": "Health & Beauty"
+    },
+    {
+        "name": "Apparel",
+        "y": 16.318,
+        "drilldown": "Apparel"
+    },
+    {
+        "name": "Jewelry",
+        "y": 12.162,
+        "drilldown": "Jewelry"
+    },
+    {
+        "name": "Accessories",
+        "y": 11.964,
+        "drilldown": "Accessories"
+    },
+    {
+        "name": "Electronics",
+        "y": 6.458,
+        "drilldown": "Electronics"
+    },
+    {
+        "name": "Housewares",
+        "y": 5.843,
+        "drilldown": "Housewares"
+    },
+    {
+        "name": "IQVC Divisional",
+        "y": 4.152,
+        "drilldown": "IQVC Divisional"
+    },
+    {
+        "name": "Textile & Furnit",
+        "y": 2.736,
+        "drilldown": "Textile & Furnit"
+    },
+    {
+        "name": "Fun & Leisure",
+        "y": 2.337,
+        "drilldown": "Fun & Leisure"
+    },
+    {
+        "name": "Other",
+        "y": 2.176,
+        "drilldown": null
+    }
+],
+"products":[
+    {
+        "name": "Home Decor",
+        "id": "Home Decor",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150062409",
+                "y": 2.875,
+                "info": "Vitamix48oz. 16-in-1 VariableSpeed BlendingSys. <br> <b>Total Sales : $1,916,569</b>"
+            },
+            {
+                "name": "P150065551",
+                "y": 2.63,
+                "info": "Sun Joe Electric Multi-Angle Telescopic Pole <br> <b>Total Sales : $1,753,387</b>"
+            },
+            {
+                "name": "P150062392",
+                "y": 2.432,
+                "info": "Vitamix Creations GC 48 oz. 13-in-1 Variable <br> <b>Total Sales : $1,621,114</b>"
+            },
+            {
+                "name": "P150062370",
+                "y": 2.336,
+                "info": "KitchenAid 4.5qt. 300W Tilt Head Stand Mixer w/ <br> <b>Total Sales : $1,557,457</b>"
+            },
+            {
+                "name": "P150065771",
+                "y": 2.169,
+                "info": "Bernini Siena Rechargeable Fountain w/Color <br> <b>Total Sales : $1,446,122</b>"
+            },
+            {
+                "name": "P150062388",
+                "y": 2.113,
+                "info": "KitchenAid 13-Cup Food Processor w/ Dicing Kit <br> <b>Total Sales : $1,408,576</b>"
+            },
+            {
+                "name": "P150064728",
+                "y": 1.789,
+                "info": "Plow & Hearth 6 ft. Wind Spinner w/ Solar <br> <b>Total Sales : $1,192,972</b>"
+            },
+            {
+                "name": "P150062267",
+                "y": 1.385,
+                "info": "Lock & Lock 10pc Nestable Bowl and Zen Storage <br> <b>Total Sales : $923,332</b>"
+            },
+            {
+                "name": "P150062428",
+                "y": 1.366,
+                "info": "Ninja 4-in-1 6 qt. Multi-cooker w/Recipe Book & <br> <b>Total Sales : $910,538</b>"
+            },
+            {
+                "name": "P150064955",
+                "y": 1.165,
+                "info": "Veranda Living Border Scroll Design In/Outdoor <br> <b>Total Sales : $777,043</b>"
+            }
+        ]
+    },
+    {
+        "name": "Health & Beauty",
+        "id": "Health & Beauty",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150017888",
+                "y": 2.38,
+                "info": "Tria Beauty 4X Laser Hair Removal Device for <br> <b>Total Sales : $1,328,584</b>"
+            },
+            {
+                "name": "P150011250",
+                "y": 2.03,
+                "info": "Calista Tools Perfecter Pro Grip Heated Round <br> <b>Total Sales : $1,133,115</b>"
+            },
+            {
+                "name": "P150018503",
+                "y": 1.912,
+                "info": "A-D WEN by Chaz Dean Universal Cleanse & Treat <br> <b>Total Sales : $1,067,425</b>"
+            },
+            {
+                "name": "P150011229",
+                "y": 1.676,
+                "info": "IT Cosmetics Super-Size Celebration Foundation <br> <b>Total Sales : $935,789</b>"
+            },
+            {
+                "name": "P150017554",
+                "y": 1.514,
+                "info": "WEN by Chaz Dean Universal Cleanse & Treat <br> <b>Total Sales : $845,422</b>"
+            },
+            {
+                "name": "P150016439",
+                "y": 1.234,
+                "info": "Hairdo Choice of 3 Wigs & Brush <br> <b>Total Sales : $689,153</b>"
+            },
+            {
+                "name": "P150016809",
+                "y": 1.163,
+                "info": "IT Cosmetics CC Your Way to Radiant Skin! 5-pc <br> <b>Total Sales : $649,398</b>"
+            },
+            {
+                "name": "P150018180",
+                "y": 1.074,
+                "info": "A-D philosophy SS beauty sleep essentials <br> <b>Total Sales : $599,788</b>"
+            },
+            {
+                "name": "P150003920",
+                "y": 1.026,
+                "info": "HairMax Lux 9 Hair Growth LaserComb <br> <b>Total Sales : $572,523</b>"
+            },
+            {
+                "name": "P150013309",
+                "y": 0.991,
+                "info": "IT Cosmetics New Year Your Most Beautiful Skin! <br> <b>Total Sales : $553,233</b>"
+            }
+        ]
+    },
+    {
+        "name": "Apparel",
+        "id": "Apparel",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150016602",
+                "y": 1.479,
+                "info": "LOGO by Lori Goldstein Slub Knit Embellished <br> <b>Total Sales : $824,327</b>"
+            },
+            {
+                "name": "P150018383",
+                "y": 1.398,
+                "info": "Isaac Mizrahi Live! 24/7 Stretch Ankle Pants <br> <b>Total Sales : $779,405</b>"
+            },
+            {
+                "name": "P150016624",
+                "y": 1.385,
+                "info": "Isaac Mizrahi Live! Short Sleeve Stretch Lace <br> <b>Total Sales : $772,304</b>"
+            },
+            {
+                "name": "P150016339",
+                "y": 1.257,
+                "info": "Susan Graver Stretch Woven Tunic with Crossover <br> <b>Total Sales : $701,071</b>"
+            },
+            {
+                "name": "P150017959",
+                "y": 1.162,
+                "info": "Denim & Co. Active Duo-Stretch Slightly Boot <br> <b>Total Sales : $647,715</b>"
+            },
+            {
+                "name": "P150000009",
+                "y": 0.912,
+                "info": "Denim & Co. Original Waist Stretch Pants w/ <br> <b>Total Sales : $508,234</b>"
+            },
+            {
+                "name": "P150016850",
+                "y": 0.878,
+                "info": "Layers by Lizden Marvelush Cable Knit Fringed <br> <b>Total Sales : $489,491</b>"
+            },
+            {
+                "name": "P150015524",
+                "y": 0.875,
+                "info": "Joan Rivers Classic Tailored Trench Coat <br> <b>Total Sales : $487,719</b>"
+            },
+            {
+                "name": "P150017130",
+                "y": 0.873,
+                "info": "Dennis Basso Water Resistant Anorak Jacket with <br> <b>Total Sales : $486,806</b>"
+            },
+            {
+                "name": "P150016626",
+                "y": 0.709,
+                "info": "Women with Control Printed Tunic & Ankle Pants <br> <b>Total Sales : $395,017</b>"
+            }
+        ]
+    },
+    {
+        "name": "Jewelry",
+        "id": "Jewelry",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150055228",
+                "y": 1.351,
+                "info": "Barbara Bixby Sterling Silver & 18K Gold Flower <br> <b>Total Sales : $561,332</b>"
+            },
+            {
+                "name": "P150054310",
+                "y": 1.312,
+                "info": "Sleeping Beauty Turquoise Rope Design Sterling <br> <b>Total Sales : $545,035</b>"
+            },
+            {
+                "name": "P150040538",
+                "y": 1.164,
+                "info": "Extraordinary Life Set of 3 Sterling Expandable <br> <b>Total Sales : $483,714</b>"
+            },
+            {
+                "name": "P150047986",
+                "y": 0.866,
+                "info": "Ecclissi Sleeping Beauty Turquoise Sterling <br> <b>Total Sales : $359,828</b>"
+            },
+            {
+                "name": "P150056785",
+                "y": 0.747,
+                "info": "Diamonique 7-Stone Ear Climber Earrings 14KClad <br> <b>Total Sales : $310,355</b>"
+            },
+            {
+                "name": "P150059075",
+                "y": 0.741,
+                "info": "Extraordinary Life Set of 3 Sterling Silver <br> <b>Total Sales : $307,824</b>"
+            },
+            {
+                "name": "P150054502",
+                "y": 0.674,
+                "info": "Bronzo Italia Bold Textured Triple Rolo <br> <b>Total Sales : $280,231</b>"
+            },
+            {
+                "name": "P150056050",
+                "y": 0.588,
+                "info": "Ecclissi Sterling Silver Multi-Strand Bracelet <br> <b>Total Sales : $244,477</b>"
+            },
+            {
+                "name": "P150056053",
+                "y": 0.574,
+                "info": "Oval Color Diamond Ring, Sterling, 1/3 cttw, <br> <b>Total Sales : $238,508</b>"
+            },
+            {
+                "name": "P150059007",
+                "y": 0.561,
+                "info": "14K Gold Bold Polished Byzantine Rolo Link <br> <b>Total Sales : $233,114</b>"
+            }
+        ]
+    },
+    {
+        "name": "Accessories",
+        "id": "Accessories",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150015937",
+                "y": 3.428,
+                "info": "Vionic w/ Orthaheel Walking Sneakers <br> <b>Total Sales : $1,401,056</b>"
+            },
+            {
+                "name": "P150017785",
+                "y": 2.948,
+                "info": "Dooney & Bourke Patent Leather Satchel with <br> <b>Total Sales : $1,205,105</b>"
+            },
+            {
+                "name": "P150015938",
+                "y": 2.778,
+                "info": "Skechers GOwalk Slip-on Mesh Sneakers - Dazzle <br> <b>Total Sales : $1,135,316</b>"
+            },
+            {
+                "name": "P150016284",
+                "y": 2.035,
+                "info": "G.I.L.I Leather Convertible Backpack <br> <b>Total Sales : $832,001</b>"
+            },
+            {
+                "name": "P150015240",
+                "y": 1.929,
+                "info": "Clarks Nubuck Wedge Sandals with Backstrap - <br> <b>Total Sales : $788,311</b>"
+            },
+            {
+                "name": "P150015495",
+                "y": 1.72,
+                "info": "Earth Origins Nubuck & Mesh Slip-On Sneakers - <br> <b>Total Sales : $703,181</b>"
+            },
+            {
+                "name": "P150016100",
+                "y": 1.686,
+                "info": "Vionic w/ Orthaheel Embellished Slide Sandals - <br> <b>Total Sales : $689,230</b>"
+            },
+            {
+                "name": "P150001099",
+                "y": 1.633,
+                "info": "Dooney & Bourke Leather Hobo with Logo Lock and <br> <b>Total Sales : $667,296</b>"
+            },
+            {
+                "name": "P150015509",
+                "y": 1.24,
+                "info": "Isaac Mizrahi Live! Suede Moccasins w/ Tipped <br> <b>Total Sales : $506,977</b>"
+            },
+            {
+                "name": "P150023343",
+                "y": 1.228,
+                "info": "Legacy French Terry Ankle Length Skirted <br> <b>Total Sales : $501,972</b>"
+            }
+        ]
+    },
+    {
+        "name": "Electronics",
+        "id": "Electronics",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150025526",
+                "y": 7.896,
+                "info": "Bose Wave Music System III w/ CD Dual Alarm & <br> <b>Total Sales : $1,742,356</b>"
+            },
+            {
+                "name": "P150025508",
+                "y": 7.246,
+                "info": "HP Touch Laptop AMD A10 8GB RAM 1TB HDD w/ <br> <b>Total Sales : $1,598,755</b>"
+            },
+            {
+                "name": "P150025521",
+                "y": 6.297,
+                "info": "Dell 15 or 17 Laptop Intel i5 8GB RAM 1TB HDD <br> <b>Total Sales : $1,389,499</b>"
+            },
+            {
+                "name": "P150025449",
+                "y": 6.131,
+                "info": "Apple iPad Mini 16GB WiFi w/Keyboard, Acc & <br> <b>Total Sales : $1,352,898</b>"
+            },
+            {
+                "name": "P150025527",
+                "y": 5.307,
+                "info": "Canon Rebel SL1 18MP DSLR w 18-55mm & 75-300mm <br> <b>Total Sales : $1,171,068</b>"
+            },
+            {
+                "name": "P150025459",
+                "y": 3.921,
+                "info": "LG Tracfone Prepaid Android 4.5 Touchscreen w/ <br> <b>Total Sales : $865,206</b>"
+            },
+            {
+                "name": "P150025574",
+                "y": 3.669,
+                "info": "Samsung Galaxy Prepaid Android Tracfone w/1200 <br> <b>Total Sales : $809,556</b>"
+            },
+            {
+                "name": "P150025428",
+                "y": 2.824,
+                "info": "LePan 8 Quad Core 8GB WiFi Android Tablet <br> <b>Total Sales : $623,221</b>"
+            },
+            {
+                "name": "P150025398",
+                "y": 2.18,
+                "info": "Trio 7.85 Quad Core 16GB WiFi 4G Tablet <br> <b>Total Sales : $480,922</b>"
+            },
+            {
+                "name": "P150025585",
+                "y": 1.482,
+                "info": "HALO Bolt 55,500 Mwh Emergency Charger with <br> <b>Total Sales : $327,060</b>"
+            }
+        ]
+    },
+    {
+        "name": "Housewares",
+        "id": "Housewares",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150067311",
+                "y": 8.695,
+                "info": "Dyson DC59 MotorHead Cordless Vacuum <br> <b>Total Sales : $1,735,795</b>"
+            },
+            {
+                "name": "P150067329",
+                "y": 6.217,
+                "info": "Dyson DC25 Ball Upright Vacuum with 5 <br> <b>Total Sales : $1,241,015</b>"
+            },
+            {
+                "name": "P150067272",
+                "y": 5.997,
+                "info": "Little Giant 24-in-1 17' Ladder w/Work Platform <br> <b>Total Sales : $1,197,151</b>"
+            },
+            {
+                "name": "P150067291",
+                "y": 5.596,
+                "info": "Shark Rotator Pro Performance Lightweight <br> <b>Total Sales : $1,117,187</b>"
+            },
+            {
+                "name": "P150067189",
+                "y": 3.903,
+                "info": "Dyson AM04 Hot & Cool Bladeless Air Multiplier <br> <b>Total Sales : $779,123</b>"
+            },
+            {
+                "name": "P150067202",
+                "y": 3.264,
+                "info": "HoMedics Ultrasonic Cool Mist Humidifier <br> <b>Total Sales : $651,647</b>"
+            },
+            {
+                "name": "P150067321",
+                "y": 3.037,
+                "info": "Scrub Daddy Set (6) Colored Jumbo Blocks w/3 <br> <b>Total Sales : $606,226</b>"
+            },
+            {
+                "name": "P150067245",
+                "y": 2.71,
+                "info": "Oreck Upright Classic Ltweight 2-Speed Vacuum <br> <b>Total Sales : $541,077</b>"
+            },
+            {
+                "name": "P150067269",
+                "y": 2.519,
+                "info": "Rowenta Mercedes Benz Fashion Week Steamium <br> <b>Total Sales : $502,864</b>"
+            },
+            {
+                "name": "P150067287",
+                "y": 1.582,
+                "info": "Blue Clean AR110S 1400 PSI Pressure Washer <br> <b>Total Sales : $315,833</b>"
+            }
+        ]
+    },
+    {
+        "name": "IQVC Divisional",
+        "id": "IQVC Divisional",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150021841",
+                "y": 1.267,
+                "info": "Aerosoles Stitch N Turn Leather Loafers - Fame <br> <b>Total Sales : $179,733</b>"
+            },
+            {
+                "name": "P150027931",
+                "y": 0.945,
+                "info": "Sony PS4 System with NBA 2K15 <br> <b>Total Sales : $134,085</b>"
+            },
+            {
+                "name": "P150027475",
+                "y": 0.854,
+                "info": "Toshiba 50 Class 120Hz Smart 1080p LED HDTV wi <br> <b>Total Sales : $121,118</b>"
+            },
+            {
+                "name": "P150027220",
+                "y": 0.694,
+                "info": "Toshiba Satellite 15 Laptop 4GB RAM 500GB HD I <br> <b>Total Sales : $98,384</b>"
+            },
+            {
+                "name": "P150027384",
+                "y": 0.554,
+                "info": "Sony PS4 500GB System Destiny Bundle <br> <b>Total Sales : $78,538</b>"
+            },
+            {
+                "name": "P150027688",
+                "y": 0.509,
+                "info": "Toshiba 15 Touchscreen Laptop - Intel Core i7, <br> <b>Total Sales : $72,268</b>"
+            },
+            {
+                "name": "P150024860",
+                "y": 0.507,
+                "info": "SquareTrade 3-Year Service Contractw/ADH:Laptop <br> <b>Total Sales : $71,961</b>"
+            },
+            {
+                "name": "P150027036",
+                "y": 0.499,
+                "info": "Samsung Galaxy Tab 4 10.1 16GB <br> <b>Total Sales : $70,762</b>"
+            },
+            {
+                "name": "P150037770",
+                "y": 0.487,
+                "info": "Sertapedic SertaFlex Joyous Plush QN Mattress S <br> <b>Total Sales : $69,055</b>"
+            },
+            {
+                "name": "P150027728",
+                "y": 0.476,
+                "info": "Gateway 17 Laptop - AMD Quad-Core, 4GB RAM, 50 <br> <b>Total Sales : $67,557</b>"
+            }
+        ]
+    },
+    {
+        "name": "Textile & Furnit",
+        "id": "Textile & Furnit",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150033789",
+                "y": 14.571,
+                "info": "Sleep Number Special Edition Adj or Modular Bed <br> <b>Total Sales : $1,361,990</b>"
+            },
+            {
+                "name": "P150033993",
+                "y": 12.402,
+                "info": "La-Z-Boy Maverick Oversized Rocker Recliner <br> <b>Total Sales : $1,159,213</b>"
+            },
+            {
+                "name": "P150033578",
+                "y": 9.898,
+                "info": "Home Reflections 600TC Easy Care Reversible <br> <b>Total Sales : $925,148</b>"
+            },
+            {
+                "name": "P150033695",
+                "y": 5.835,
+                "info": "PedicSolutions Supreme Memory Loft Topper <br> <b>Total Sales : $545,414</b>"
+            },
+            {
+                "name": "P150033891",
+                "y": 5.809,
+                "info": "Serta Perfect Sleeper Enamor 12 Euro Top <br> <b>Total Sales : $543,000</b>"
+            },
+            {
+                "name": "P150034134",
+                "y": 1.933,
+                "info": "Shps 2/18 Serta Superlative 12.5 Pillowtop <br> <b>Total Sales : $180,702</b>"
+            },
+            {
+                "name": "P150032924",
+                "y": 1.512,
+                "info": "Sure Fit Deluxe Comfort Furniture Cover w/ <br> <b>Total Sales : $141,338</b>"
+            },
+            {
+                "name": "P150032570",
+                "y": 1.374,
+                "info": "Northern Nights Zara 600TC 100%Cotton Wrinkle <br> <b>Total Sales : $128,427</b>"
+            },
+            {
+                "name": "P150034102",
+                "y": 1.195,
+                "info": "Tempur-pedic Cloud Loft Mattress Set <br> <b>Total Sales : $111,672</b>"
+            },
+            {
+                "name": "P150032509",
+                "y": 1.023,
+                "info": "MyPillow Sapphire Series Custom Fit Set of 2 <br> <b>Total Sales : $95,627</b>"
+            }
+        ]
+    },
+    {
+        "name": "Fun & Leisure",
+        "id": "Fun & Leisure",
+        "info": "Detailed information",
+        "data": [
+            {
+                "name": "P150028611",
+                "y": 15.212,
+                "info": "Total Gym Elite with 6 Attachments and 4 DVDs <br> <b>Total Sales : $1,214,604</b>"
+            },
+            {
+                "name": "P150028635",
+                "y": 15.012,
+                "info": "Fitbit Flex Wireless Activity and Sleep Tracker <br> <b>Total Sales : $1,198,627</b>"
+            },
+            {
+                "name": "P150028599",
+                "y": 13.448,
+                "info": "BodyGym Portable Home Gym Resistance System <br> <b>Total Sales : $1,073,743</b>"
+            },
+            {
+                "name": "P150028682",
+                "y": 12.491,
+                "info": "smoothXbike Pro Compact Foldable Exercise Bike <br> <b>Total Sales : $997,353</b>"
+            },
+            {
+                "name": "P150028524",
+                "y": 7.986,
+                "info": "AeroPilates Reformer Plus 5Cord w/ DVD's PullUp <br> <b>Total Sales : $637,641</b>"
+            },
+            {
+                "name": "P150028482",
+                "y": 5.498,
+                "info": "Bodyblade Total Results Fitness Program w/DVD, <br> <b>Total Sales : $439,033</b>"
+            },
+            {
+                "name": "P150028674",
+                "y": 5.399,
+                "info": "21 Day Fix Workout Plan With 2 DVD's 7 Workouts <br> <b>Total Sales : $431,057</b>"
+            },
+            {
+                "name": "P150028478",
+                "y": 3.922,
+                "info": "The Flex Belt Abdominal Toning Belt System <br> <b>Total Sales : $313,167</b>"
+            },
+            {
+                "name": "P150028603",
+                "y": 3.799,
+                "info": "Total Gym Ultima w/10 Attachments 2 Floor Mats <br> <b>Total Sales : $303,344</b>"
+            },
+            {
+                "name": "P150028575",
+                "y": 1.862,
+                "info": "AeroPilates Reformer Plus 4 Cord w/DVDs Pull Up <br> <b>Total Sales : $148,657</b>"
+            }
+        ]
+    }
+]
+
+}

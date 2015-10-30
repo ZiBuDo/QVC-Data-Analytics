@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" type="x-icon" href="img/favicon.ico"/>
+	<link rel="icon" type="x-icon" href="img/favicon.ico"/>
+
+    <title>QVC Analytics Challenge</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+ <script type="text/javascript">
+//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+	</script>
+    <!-- Custom Fonts -->
+	<link rel="stylesheet" type="text/css" href="http://www.highcharts.com/joomla/media/com_demo/highslide.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+		<script type="text/javascript">
+		$(document).ready(function() { //hide the data
+			$("#main").hide();
+			$("#info").hide();
+			$("#state").hide();
+			$("#county").hide();
+			$("#total").hide();
+			$("#state2").hide();
+			$("#county2").hide();
+			$("#q1").hide();
+			$("#q2").hide();
+			$("#mainq2").hide();
+			$("#statq2").hide();
+			$("#q2point").hide();
+			$("#infoq2").hide();
+			$("#q3").hide();
+			$("#mainq3").hide();
+			$("#3dq3").hide();
+			$("#q4").hide();
+			$("#mainq4").hide();
+			$("#forumq4").hide();
+			$("#fbq4").hide();
+			$("#sentq4").hide();
+			$("#twitterq4").hide();
+			$("#loading").hide();
+			$("#scatq4").hide();
+			$("#q1info").hide();
+			$("#q2info").hide();
+			$("#q3info").hide();
+			$("#q4info").hide();
+		
+		});
+		function hide_all(){
+			$("#main").hide();
+			$("#info").hide();
+			$("#state").hide();
+			$("#county").hide();
+			$("#total").hide();
+			$("#state2").hide();
+			$("#county2").hide();
+			$("#q1").hide();
+			$("#q2").hide();
+			$("#mainq2").hide();
+			$("#statq2").hide();
+			$("#q2point").hide();
+			$("#infoq2").hide();
+			$("#q3").hide();
+			$("#mainq3").hide();
+			$("#3dq3").hide();
+			$("#q4").hide();
+			$("#mainq4").hide();
+			$("#forumq4").hide();
+			$("#fbq4").hide();
+			$("#twitterq4").hide();
+			$("#sentq4").hide();
+			$("#loading").hide();
+			$("#scatq4").hide();
+			$("#q1info").hide();
+			$("#q2info").hide();
+			$("#q3info").hide();
+			$("#q4info").hide();
+			$("#none").show();
+			window.location.hash = '#webapp';
+		}
+		</script>
+
+</head>
+
+<body id="page-top">
+<style>
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(img/page-loader.gif) center no-repeat #fff;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   left: 0px;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+.infographic{
+	display: block;
+    margin-left: -100px;
+    margin-right: auto;
+
+
+}
+</style>
+<div class="se-pre-con text-center"><h2>The Web App is Loading. Please Wait...</h2></div>
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+			<a class="navbar-brand page-scroll" href="http://ibit.temple.edu/analytics/"><img src="img/temp.png" height="36" width="200"/></a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+					<li>
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#overview">Overview</a>
+                    </li>
+					 <li>
+                        <a class="page-scroll" href="#proposal">Proposal</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#webapp">Web App</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>QVC Temple Analytics Challenge</h1>
+                <hr>
+                <p>Paul Gregotski and Loi Tran</p>
+				<p>Fox School of Business - Temple University</p>
+				<p>Tuf41345 and Tuf42559</p>
+				<a href="#webapp" class="btn btn-primary btn-xl page-scroll">Go To Web App</a>
+            </div>
+        </div>
+    </header>
+	<section class="bg-primary" id="overview">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+	<section id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Overview</h2>
+                    <hr class="primary">
+                    <p>QVC is a video and ecommerce retailer with a live broadcast that reaches nearly 300 million homes worldwide. The data is a 3 month sampling of QVC data that comprises 20% of the actual volume.</p> 
+					<p>There are four questions this Web App seeks to answer:</p>
+					<ol>
+						<li><b>What are the products and product categories that sell best in the US market?</li><br>
+						<li>How effective are QVC’s campaigns in driving product sales?</li><br>
+						<li>How effective are QVC’s on-air broadcast and on-air personalities in driving product sales?</li><br>
+						<li>What is the impact of QVC’s social networking presence on driving product sales?</li></b><br>
+					</ol>
+		<form method="get" action="js/question/QVCFullData.zip"><button type="submit"class="btn btn-primary btn-xl page-scroll">Download QVC Data</button></form> <br>
+		<form method="get" action="js/question/QVCDataDictionary.pdf"><button type="submit"class="btn btn-primary btn-xl page-scroll">Download Data Defintions</button> </form>   					
+			   </div>
+                
+            </div>
+        </div>
+    </section>
+	<section class="bg-primary" id="proposal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">QVC Temple Analytics Proposal</h2>
+                    <hr class="primary">
+                    <p>Let us tell you why our interactive web application is a great data analytics tool!</p>
+					<a href="js/question/Proposal.pdf" class="btn btn-primary btn-xl page-scroll">View Proposal</a><br><p></p>
+					<form method="get" action="js/question/Proposal.pdf"><button type="submit"class="btn btn-primary btn-xl page-scroll">Download Proposal</button> </form> 
+			   </div>
+                
+            </div>
+        </div>
+    </section>
+	<section class="bg-primary" id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+	<section id="webapp">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">QVC Data Analytics Web Application</h2>  <br>        
+			   </div>
+			   <div class="col-lg-2"></div>
+			   <div class="col-lg-12 text-center">
+			   <button class="btn btn-primary btn-xl page-scroll" onclick="question1()">Question 1</button>
+			   <button class="btn btn-primary btn-xl page-scroll" onclick="question2()">Question 2</button>
+			   <button class="btn btn-primary btn-xl page-scroll" onclick="question3()">Question 3</button>
+			   <button class="btn btn-primary btn-xl page-scroll" onclick="question4()">Question 4</button>
+			   </div>
+			   <div class="col-lg-12 text-center"><br><br></div>
+			   <div id="loading">
+				  <img id="loading-image" src="img/page-loader.gif" alt="Loading..." />
+				</div>
+			   <div class="col-lg-12 text-center" id="none"><h2>Select a Question to Interact with the Data.</h2></div>
+
+			   <div class="col-lg-12 text-center" id="q1"><h2>What are the products and product categories that sell best in the US market?</h2></div>
+			   <div class="col-lg-12 text-center" id="q1info"><img src="img/q1.png" /><p></p><br></div>
+			   <div class="col-lg-12" id="total"></div>
+			   <div class="col-lg-8" id="main"></div>
+			   <div class="col-lg-4" id="info"><h1>Data Overview:</h1><p>Total sales of QVC products in the U.S.A.</p>
+			   <ul>
+			   <li>
+					<b>Hover over the state to check total sales of that state.</b>
+				</li>
+				<li>
+					<b>Click on the state to open a pie chart of that state's product categories.</b>
+				</li>
+				<li>
+					<b>Click on a county in that state to open a pie chart of that countie's product categories.</b>
+				</li>
+				<li>
+					<b>Hover over slices of the pie charts to check specific product percentages.</b>
+				</li>
+				<li>
+					<b>Click on slices of the pie charts to check specific product information of that slice.</b>
+				</li>
+			   </ul></div>
+			   <div class="col-lg-6 nopadding" id="state"></div>
+			   <div class="col-lg-6 nopadding" id="county"></div>
+			   <div class="col-lg-6 text-center" id="state2"><h3>State Pie Chart</h3></div>
+			   <div class="col-lg-6 text-center" id="county2"><h3>County Pie Chart</h3></div>
+			   
+			
+			
+			<div class="col-lg-12 text-center" id="q2"><h2>How effective are QVC’s campaigns in driving product sales?</h2></div>
+			<div class="col-lg-12 text-center" id="q2info"><img class="center-block" src="img/q2.png" id="infographic"/><p></p><br></div>
+			<div class="col-lg-12 text-center" id="mainq2"></div>
+			<div class="col-lg-6 text-center" id="q2point"></div>
+			<div class="col-lg-6 text-center" id="infoq2"><h1>Data Overview:</h1><p>Efficacy of Campaign Spending</p>
+			   <ul>
+			   <li>
+					<b>Click a point to check whether a point is above or below average sales.</b>
+				</li>
+				<li>
+					<b>Hover over a marker to check that specific campaign on that specific category.</b>
+				</li>
+				<li>
+					<b>Drag the mouse to select an area on the Scatter Plot to zoom in on the graph.</b>
+				</li>
+				<li>
+					<b>Move across the regression line to formulate the efficacy of campaign spending at that point along the x-axis.</b>
+				</li>
+			   </ul></div>
+			<div class="col-lg-12 text-center" id="statq2"></div>
+			
+			
+			<div class="col-lg-12 text-center" id="q3"><h2>How effective are QVC’s on-air broadcast and on-air personalities in driving product sales?</h2></div>
+			<div class="col-lg-12 text-center" id="q3info"><img class="center-block" src="img/q3.png" id="infographic"/><p></p><br></div>
+			<div class="col-lg-12 text-center" id="mainq3"></div>
+			<div class="col-lg-12 text-center" id="3dq3"></div>
+
+			<div class="col-lg-12 text-center" id="q4"><h2>What is the impact of QVC’s social networking presence on driving product sales?</h2></div>
+			<div class="col-lg-12 text-center" id="q4info"><img class="center-block" src="img/q4.png" id="infographic"/><p></p><br></div>
+			<div class="col-lg-4 text-center" id="forumq4"></div>
+			<div class="col-lg-4 text-center" id="twitterq4"></div>
+			<div class="col-lg-4 text-center" id="fbq4"></div>
+			<div class="col-lg-12 text-center" id="mainq4"></div>
+			<div class="col-lg-12 text-center" id="sentq4"><h3>Sentiment Score: The aggregate of all sentiments with assigned values over the given time period, in this case the time period is 12 hours.</h3>
+			<ul>
+			   <li>
+					<b>Strongly Positive = 3 points</b>
+				</li>
+				<li>
+					<b>Positive = 1 point</b>
+				</li>
+				<li>
+					<b>Neutral = 0 points</b>
+				</li>
+				<li>
+					<b>Negative = -1 points</b>
+				</li>
+				<li>
+					<b>Strongly Negative = -3 points</b>
+				</li>
+			   </ul>
+			</div>
+			<div class="col-lg-12 text-center" id="scatq4"></div>
+			
+			<div class="col-lg-12 text-center">
+			<br>
+				<button class="btn btn-primary btn-xl page-scroll" onclick="hide_all()">Hide Data</button>
+			</div>
+			</div>
+        </div>
+    </section>
+
+	    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+	<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact the Creators</h2>
+                    <hr class="primary">
+                    <p>Have a question or would you like to get to know more about the creators of this web application? Contact them here through their official Temple University emails.</p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">paul.gregotski@temple.edu</a></p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">loi.van.tran@temple.edu</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="bg-primary" id="git">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+	<section id="git">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Check Out the Source</h2>
+                    <hr class="primary">
+                    <p>This site is built using Highcharts API with all three of Highcharts' packages. Highcharts, Highmaps, and Highstock to provide unique and interactive graphs for the user. To learn more about the technology stack used for this project, visit the GitHub repository.</p>
+					<a href="https://github.com/ZiBuDo/QVC-Data-Analytics" class="btn btn-primary btn-xl page-scroll">Go To GitHub Repository</a>
+				</div>
+               
+        </div>
+    </section>
+
+    <!-- jQuery -->
+	<script type="text/javascript" src="/js/question/map/us.json"></script>
+	<script type="text/javascript" src="/js/question/map/total.json"></script>
+	<script type="text/javascript" src="/js/question/q2/main.json"></script>
+	<script type="text/javascript" src="/js/question/q3/q3.json"></script>
+	<script type="text/javascript" src="js/question/3.js"></script>
+	<script type="text/javascript" src="/js/question/q4/q4.json"></script>
+	<script type="text/javascript" src="js/question/1.js"></script>
+	<script type="text/javascript" src="js/question/2.js"></script>
+	<script type="text/javascript" src="js/question/4.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+	<script src="js/highstock.js"></script>
+	<script src="js/modules/map.js"></script>
+	<script src="http://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+	<script src="js/modules/data.js"></script>
+	<script src="js/modules/drilldown.js"></script>
+	<script src="js/regression.js"></script>
+	<script src="js/modules/exporting.js"></script>
+	<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide-full.min.js"></script>
+	<script src="http://www.highcharts.com/joomla/media/com_demo/js/highslide.config.js" charset="utf-8"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+	 <script type="text/javascript">
+		question1();
+		question2();
+		question3();
+		question4();
+	</script>
+
+</body>
+
+</html>
